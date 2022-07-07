@@ -1,0 +1,17 @@
+.navbar-vragen{
+background-color: #283451;
+color: white;
+justify-content: center!important;
+}
+
+
+.card-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 20px;
+
+    color: #ffffff;
+
+}

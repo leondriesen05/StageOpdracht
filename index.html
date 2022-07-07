@@ -4,50 +4,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="./media/styles.css" rel="stylesheet">
     <title>Stage Opdracht</title>
 </head>
 <body>
-    <nav class="navbar-vragen bg-light">
-        <div class="container-xl">
-            <a href="#intro" class="navbar-brand">
-                <span class="fw-bold text-secondary">
-                    vragen? Bel ons op 071 - 541 42 22
-                </span>
-            </a>
-        </div>
-    </nav>
-    <nav class="navbar-zoeken">
-        <div class="container-xxl">
-            <a href="#intro" class="navbar-brand">
-                <span class="fw-bold text-secondary">
-                    <form styles=>
-                        <input type="text" class="zoeken" id="zoeken">
-                    </form>
-                </span>
-            </a>
-        </div>
-    </nav>
-    <nav class="navbar-main">
-        <div class="container-xl">
-            <a href="#intro" class="navbar-brand">
-                <span class="fw-bold text-secondary">
-                    Sportballen
-                </span>
-            </a>
-        </div>
-    </nav>
+   <div class="navbar-vragen">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                Vragen? Bel ons op 071 - 541 42 22
 
-        <section id="intro">
-            <div class="container-lg">
-                <div class="row justify-content-center">
-                    
-                </div>
+            </a>
+            
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li>
+                <a href="#" class="nav-link text-white">  
+                    Over Eilers Sport
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                    Inloggen
+                </a>
+              </li>
+              <li class="nav-link text-white">
+                    Aanmelden
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <header class="py-2 border-bottom">
+        <div class="container-fluid d-grid gap-4 align-items-center" style="grid-template-columns: 1fr 2fr;">
+          <a class="d-flex align-items-center col-lg-4 mb-1 mb-lg-0">
+            </a>
+          <div class="d-flex align-items-center">
+            <form class="w-50 me-3" role="search">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <div class="img"> 
+        <img src="./media/basketbal.png" style="width:1740px;height:400px;">
+    </div>
+ 
+
+
+        <div class="card-group">
+            <div class="card" style="width: 18rem; background-image: url('./media/basketbal.png');
+            height: 18rem; background-repeat: no-repeat; background-size: cover; margin: 5px;">
+            <img class="card-img-top">
+    
+            <h1>sportballen</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
-        </section>
+            <div class="card" style="width: 18rem; background-image: url('./media/sporten.png');
+            height: 18rem; background-repeat: no-repeat; background-size: cover; margin: 5px;">
+            <img class="card-img-top">
+    
+            <h1>sporten</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
 
+            <div class="card" style="width: 18rem; background-image: url('./media/recreatie.png');
+        height: 18rem; background-repeat: no-repeat; background-size: cover; margin: 5px;">
+        <img class="card-img-top">
 
+        <h1>spel en recreatie</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+          </div>
 
+          <div class="card-group">
+            <div class="card" style="width: 18rem; background-image: url('./media/netten.png');
+            height: 18rem; background-repeat: no-repeat; background-size: cover; margin: 5px;">
+            <img class="card-img-top">
+    
+            <h1>netten</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="card" style="width: 18rem; background-image: url('./media/kleding.png');
+            height: 18rem; background-repeat: no-repeat; background-size: cover; margin: 5px;">
+            <img class="card-img-top">
+    
+            <h1>kelding</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="card" style="width: 18rem; background-image: url('./media/materiaal.png');
+        height: 18rem; background-repeat: no-repeat; background-size: cover; margin: 5px;">
+        <img class="card-img-top">
+
+        <h1>club materiaal</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+          </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
